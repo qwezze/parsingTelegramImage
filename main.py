@@ -168,7 +168,7 @@ class ParserApp:
         self.file_frame.pack(pady=5, padx=5, fill=tk.X)
         self.file_entry.pack(pady=5, padx=5,side=tk.LEFT, fill=tk.X, expand=True)
         self.browse_btn.pack(pady=5, padx=5, side=tk.RIGHT)
-
+        print('Test')
         self.settings_frame.pack(pady=5, padx=5, fill=tk.X)
         self.folder_entry.pack(side=tk.LEFT, pady=5, padx=5, fill=tk.X, expand=True)
         self.folder_browse_btn.pack(side=tk.RIGHT, pady=5, padx=5)
